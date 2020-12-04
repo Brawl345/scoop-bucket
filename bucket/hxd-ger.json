@@ -13,7 +13,7 @@
             "installer": {
                 "script": [
                     "Expand-InnoArchive \"$dir\\HxDPortableSetup.exe\" -Removal",
-                    "Rename-Item \"$dir\\HxD64,3.exe\" \"$dir\\HxD.exe\"",
+                    "Rename-Item \"$dir\\HxD64,1.exe\" \"$dir\\HxD.exe\"",
                     "Remove-Item \"$dir\\*,*\" -Force"
                 ]
             }
