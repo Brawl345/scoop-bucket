@@ -1,0 +1,49 @@
+{
+    "version": "13.6.0",
+    "description": "Searches and downloads shows from various German-language public broadcasters.",
+    "homepage": "https://mediathekview.de/",
+    "license": {
+        "identifier": "GPL-3.0-only"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mediathekview.de/stabil/MediathekView-13.6.0-win.zip",
+            "hash": "5253c3075902c712e6136b944639d3e486070ded874ad65a0b9423e263c8af35"
+        },
+        "32bit": {
+            "url": "https://download.mediathekview.de/stabil/MediathekView-13.6.0-win32.zip",
+            "hash": "9579f61ae313dd937486efca2cd5cc18425a6c10588a2f0ff2c653d6b440894c"
+        }
+    },
+    "bin": "MediathekView_Portable.exe",
+    "extract_dir": "MediathekView",
+    "shortcuts": [
+        [
+            "MediathekView_Portable.exe",
+            "MediathekView"
+        ]
+    ],
+    "persist": "Einstellungen",
+    "checkver": {
+        "url": "https://download.mediathekview.de/stabil/updates-win.xml",
+        "re": "newVersion=\"([\\d\\.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.mediathekview.de/stabil/MediathekView-$version-win.zip",
+                "hash": {
+                    "url": "https://download.mediathekview.de/stabil/updates-win.xml",
+                    "xpath": "/updateDescriptor/entry[2]/@sha256Sum"
+                }
+            },
+            "32bit": {
+                "url": "https://download.mediathekview.de/stabil/MediathekView-$version-win32.zip",
+                "hash": {
+                    "url": "https://download.mediathekview.de/stabil/updates-win32.xml",
+                    "xpath": "/updateDescriptor/entry[2]/@sha256Sum"
+                }
+            }
+        }
+    }
+}
