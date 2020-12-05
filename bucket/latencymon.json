@@ -1,0 +1,22 @@
+{
+    "version": "7.00",
+    "description": "Real-time audio suitability checker",
+    "homepage": "https://www.resplendence.com/latencymon",
+    "license": "Proprietary",
+    "url": "https://www.resplendence.com/download/LatencyMon.exe",
+    "hash": "77e90f0f042f9806639de25c67fa78948696cb635c8f47c4f11e92cd6162a2ae",
+    "innosetup": true,
+    "bin": "LatMon.exe",
+    "shortcuts": [
+        [
+            "LatMon.exe",
+            "LatencyMon"
+        ]
+    ],
+    "checkver": {
+        "regex": "Latest version: LatencyMon v ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.resplendence.com/download/LatencyMon.exe"
+    }
+}
