@@ -1,0 +1,48 @@
+{
+    "version": "2.2.1E",
+    "description": "Feature-rich, customizable and easy-to-use clipboard manager",
+    "homepage": "https://chigusa-web.com/en/clibor/",
+    "license": "Freeware",
+    "url": "https://chigusa-web.com/dlfile/clibor221E.zip",
+    "hash": "2af739a097cb229d7ae833376c3326dbc4613820ac41e34f2c56abffd8397791",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\excl.dat\")) {",
+        "    Stop-Process -Name Clibor",
+        "    Write-Host 'File excl.dat does not exists. Starting Clibor...' -f Yellow",
+        "    Write-Host 'Please accept the startup dialog!' -f Yellow",
+        "    Start-Process -FilePath \"$dir\\Clibor.exe\"",
+        "    while (!(Test-Path \"$dir\\excl.dat\")) {",
+        "        Start-Sleep -Milliseconds 300",
+        "    }",
+        "    Start-Sleep 1",
+        "    Stop-Process -Name Clibor",
+        "}",
+        "if (Test-Path \"$persist_dir\\Clibor.xml\") { Remove-Item \"$dir\\Clibor.xml\" -ErrorAction 'SilentlyContinue' -Force }",
+        "if (Test-Path \"$persist_dir\\frmt.dat\") { Remove-Item \"$dir\\frmt.dat\" -ErrorAction 'SilentlyContinue' -Force }",
+        "if (Test-Path \"$persist_dir\\ww.dat\") { Remove-Item \"$dir\\ww.dat\" -ErrorAction 'SilentlyContinue' -Force }"
+    ],
+    "extract_dir": "clibor221E",
+    "bin": "Clibor.exe",
+    "shortcuts": [
+        [
+            "Clibor.exe",
+            "Clibor"
+        ]
+    ],
+    "persist": [
+        "ch",
+        "ct",
+        "Clibor.xml",
+        "excl.dat",
+        "frmt.dat",
+        "ww.dat"
+    ],
+    "checkver": {
+        "url": "https://chigusa-web.com/en/download/",
+        "regex": "Clibor ([\\d.]+E)"
+    },
+    "autoupdate": {
+        "url": "https://chigusa-web.com/dlfile/clibor$cleanVersion.zip",
+        "extract_dir": "clibor$cleanVersion"
+    }
+}
