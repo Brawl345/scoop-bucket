@@ -1,0 +1,38 @@
+{
+    "version": "5.11",
+    "description": "Scroll via mouse wheel even if the window is not in the foreground",
+    "homepage": "http://www.softwareok.de/?seite=Microsoft/AlwaysMouseWheel",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_x64.zip",
+            "hash": "af1ff551dec57ddc980321e33e71621c492a9836a402cb7d635b51f462c0f4cc"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.de/Download/AlwaysMouseWheel.zip",
+            "hash": "02c34b1e34947ee562cbb8dbac824ee3fce0a27dd5c56a5087ffa115a13ba569"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\\AlwaysMouseWheel*.exe\" | Rename-Item -NewName 'AlwaysMouseWheel.exe'",
+    "bin": "AlwaysMouseWheel.exe",
+    "shortcuts": [
+        [
+            "AlwaysMouseWheel.exe",
+            "AlwaysMouseWheel"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.softwareok.de/?Download=AlwaysMouseWheel",
+        "re": "Download AlwaysMouseWheel ([\\d\\.]+) für Microsoft Windows OS"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.de/Download/AlwaysMouseWheel.zip"
+            }
+        }
+    }
+}
