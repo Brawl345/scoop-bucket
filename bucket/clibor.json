@@ -7,7 +7,7 @@
     "hash": "2af739a097cb229d7ae833376c3326dbc4613820ac41e34f2c56abffd8397791",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\excl.dat\")) {",
-        "    Stop-Process -Name Clibor",
+        "    Stop-Process -Name Clibor -ErrorAction 'SilentlyContinue'",
         "    Write-Host 'File excl.dat does not exists. Starting Clibor...' -f Yellow",
         "    Write-Host 'Please accept the startup dialog!' -f Yellow",
         "    Start-Process -FilePath \"$dir\\Clibor.exe\"",
