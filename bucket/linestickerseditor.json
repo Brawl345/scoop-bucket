@@ -1,0 +1,32 @@
+{
+    "version": "1.2.0",
+    "description": "LINE Stickers Editor",
+    "homepage": "https://github.com/line-stickers/LineStickersEditor",
+    "license": "Proprietary",
+    "url": [
+        "https://github.com/line-stickers/LineStickersEditor/releases/download/latest/Windows_StickersEditor_1.2.0.7z",
+        "https://line.me/favicon.ico#/icon.ico"
+    ],
+    "hash": [
+        "d943bdab663d1e1f858054fb4827723b6795b604cb19ab193310dcb2f94f224f",
+        "5808cbcd3bb7cea7e36bd26d409178e3bef44dc266e937951d4f02fb98172cd6"
+    ],
+    "pre_install": "Get-ChildItem \"$dir\\StickersEditor_*.exe\" | Rename-Item -NewName 'StickersEditor.exe'",
+    "bin": "StickersEditor.exe",
+    "persist": "StickersEditorWorkspace",
+    "shortcuts": [
+        [
+            "StickersEditor.exe",
+            "LINE Stickers Editor",
+            "",
+            "icon.ico"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/line-stickers/LineStickersEditor/releases/latest",
+        "re": "Windows_StickersEditor_([\\d.]+).7z"
+    },
+    "autoupdate": {
+        "url": "https://github.com/line-stickers/LineStickersEditor/releases/download/latest/Windows_StickersEditor_$version.7z"
+    }
+}
