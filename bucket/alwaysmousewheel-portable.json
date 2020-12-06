@@ -1,0 +1,42 @@
+{
+    "version": "5.11",
+    "description": "Scroll via mouse wheel even if the window is not in the foreground",
+    "homepage": "http://www.softwareok.de/?seite=Microsoft/AlwaysMouseWheel",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable_x64.zip",
+            "hash": "84a5a2543462cdd7bcd7e9d13ab12054c3071c8b4b8ed369c4b86aa5ad810ed0"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable.zip",
+            "hash": "19cd83c6a026cf6f139d9d3e1b368413765d5d4047bd785a14b1f77665aaa042"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem \"$dir\\AlwaysMouseWheel*.exe\" | Rename-Item -NewName 'AlwaysMouseWheel.exe'",
+        "if(!(Test-Path \"$persist_dir\\AlwaysMouseWheel.ini\")) { New-Item \"$dir\\AlwaysMouseWheel.ini\" | Out-Null }"
+    ],
+    "bin": "AlwaysMouseWheel.exe",
+    "shortcuts": [
+        [
+            "AlwaysMouseWheel.exe",
+            "AlwaysMouseWheel"
+        ]
+    ],
+    "persist": "AlwaysMouseWheel.ini",
+    "checkver": {
+        "url": "https://www.softwareok.de/?Download=AlwaysMouseWheel",
+        "re": "Download AlwaysMouseWheel ([\\d\\.]+) für Microsoft Windows OS"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable.zip"
+            }
+        }
+    }
+}
