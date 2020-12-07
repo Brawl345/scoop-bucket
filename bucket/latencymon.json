@@ -13,9 +13,7 @@
             "LatencyMon"
         ]
     ],
-    "checkver": {
-        "regex": "Latest version: LatencyMon v ([\\d.]+)"
-    },
+    "checkver": "Latest version: LatencyMon v ([\\d.]+)",
     "autoupdate": {
         "url": "https://www.resplendence.com/download/LatencyMon.exe"
     }
