@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://github.com/line-stickers/LineStickersEditor/releases/latest",
-        "re": "Windows_StickersEditor_([\\d.]+).7z"
+        "regex": "Windows_StickersEditor_([\\d.]+).7z"
     },
     "autoupdate": {
         "url": "https://github.com/line-stickers/LineStickersEditor/releases/download/latest/Windows_StickersEditor_$version.7z"

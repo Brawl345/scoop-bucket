@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://www.softwareok.de/?Download=AlwaysMouseWheel",
-        "re": "Download AlwaysMouseWheel ([\\d\\.]+) für Microsoft Windows OS"
+        "regex": "Download AlwaysMouseWheel ([\\d\\.]+) für Microsoft Windows OS"
     },
     "autoupdate": {
         "architecture": {

@@ -26,7 +26,7 @@
     "persist": "Einstellungen",
     "checkver": {
         "url": "https://download.mediathekview.de/stabil/updates-win.xml",
-        "re": "newVersion=\"([\\d\\.]+)\""
+        "regex": "newVersion=\"([\\d\\.]+)\""
     },
     "autoupdate": {
         "architecture": {
