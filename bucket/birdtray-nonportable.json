@@ -22,11 +22,6 @@
         [
             "birdtray.exe",
             "Birdtray"
-        ],
-        [
-            "birdtray.exe",
-            "Birdtray Einstellungen",
-            "--settings"
         ]
     ],
     "checkver": "github",
