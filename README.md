@@ -1,5 +1,7 @@
 # Scoop Repo
 
+[![Build status](https://ci.appveyor.com/api/projects/status/xorb4x9layrloi2y/branch/master?svg=true)](https://ci.appveyor.com/project/Brawl345/scoop-bucket/branch/master)
+
 My manifests for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 How do I install these manifests?
