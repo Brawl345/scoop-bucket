@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://learnmmd.com/MikuMikuDanceE_v932x64.zip",
             "hash": "556966ab7f2f55391466140158f6e5b3c6cc2caaff78807fa3e7e16bed19e0cb",
-            "extracT_dir": "MikuMikuDanceE_v932x64"
+            "extract_dir": "MikuMikuDanceE_v932x64"
         },
         "32bit": {
             "url": "https://learnmmd.com/MikuMikuDanceE_v932.zip",
@@ -39,7 +39,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersionx64.zip",
-                "extracT_dir": "MikuMikuDanceE_v$cleanVersionx64"
+                "extract_dir": "MikuMikuDanceE_v$cleanVersionx64"
             },
             "32bit": {
                 "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersion.zip",
