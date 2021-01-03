@@ -1,0 +1,22 @@
+{
+    "version": "4.0.1",
+    "description": "A free, full-featured and user-friendly alarm clock",
+    "homepage": "https://freealarmclocksoftware.com/",
+    "license": "Proprietary",
+    "url": "https://freealarmclocksoftware.com/FreeAlarmClockPortable.zip",
+    "hash": "95f240338973662ef697c50217068560afb70f5e041bd878f3240de762e1040c",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\Data.ini\")) { New-Item \"$dir\\Data.ini\" | Out-Null }",
+    "bin": "FreeAlarmClock.exe",
+    "extract_dir": "FreeAlarmClockPortable",
+    "shortcuts": [
+        [
+            "FreeAlarmClock.exe",
+            "Free Alarm Clock"
+        ]
+    ],
+    "persist": "Data.ini",
+    "checkver": "<span class=\"grey\">Version:</span> ([\\d\\.]+)",
+    "autoupdate": {
+        "url": "https://freealarmclocksoftware.com/FreeAlarmClockPortable.zip"
+    }
+}
