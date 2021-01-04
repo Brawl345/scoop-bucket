@@ -1,10 +1,10 @@
 {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "An unpacker for Clickteam Install Creator installers",
     "homepage": "https://github.com/Bioruebe/cicdec",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/Bioruebe/cicdec/releases/download/2.1.1/cicdec.zip",
-    "hash": "392b6f56b88e3f063a018cf1f45528d5aa5de3e5fc8636e432ad00c9d298c44c",
+    "url": "https://github.com/Bioruebe/cicdec/releases/download/2.1.2/cicdec.zip",
+    "hash": "eb3787b979019a36c45a611dbd85e7db1d7423e29511399429f7d55ad0c95ab7",
     "bin": "cicdec.exe",
     "checkver": "github",
     "autoupdate": {
