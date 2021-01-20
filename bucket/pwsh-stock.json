@@ -6,7 +6,6 @@
         "identifier": "MIT",
         "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
     },
-    "#": "Modified from Ash258's script to fix some issues (shim) and keeping it stock.",
     "changelog": "https://github.com/PowerShell/PowerShell/releases/latest",
     "architecture": {
         "64bit": {
