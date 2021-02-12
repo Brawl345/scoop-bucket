@@ -1,16 +1,16 @@
 {
-    "version": "5.11",
+    "version": "5.35",
     "description": "Scroll via mouse wheel even if the window is not in the foreground",
     "homepage": "http://www.softwareok.de/?seite=Microsoft/AlwaysMouseWheel",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable_x64.zip",
-            "hash": "84a5a2543462cdd7bcd7e9d13ab12054c3071c8b4b8ed369c4b86aa5ad810ed0"
+            "hash": "eaddf2171cb9268f28ec53d96796d83b1c9ac3000e98ab29921f1074ff80e2fa"
         },
         "32bit": {
             "url": "https://www.softwareok.de/Download/AlwaysMouseWheel_Portable.zip",
-            "hash": "19cd83c6a026cf6f139d9d3e1b368413765d5d4047bd785a14b1f77665aaa042"
+            "hash": "b6da9aa1e241a2f57499d6242c1d57d3c6588350c4b89778fd5aee5d97b83feb"
         }
     },
     "pre_install": [
