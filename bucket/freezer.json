@@ -24,8 +24,8 @@
         ]
     ],
     "checkver": {
-        "regex": "Latest: ([\\d.]+)",
-        "reverse": true
+        "url": "https://freezer.life/build/bundle.js",
+        "regex": "https://files.freezer.life/0:/PC/([\\d.]+)/Freezer%20Portable%20([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://files.freezer.life/0:/PC/$version/Freezer%20Portable%20$version.exe#/dl.7z"
