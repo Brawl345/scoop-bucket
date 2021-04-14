@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0",
+    "version": "4.0.1",
     "description": "Das wahrscheinlich beliebteste kostenlose Haushaltsbuch in Deutschland",
     "homepage": "https://www.mymicrobalance.com/",
     "license": "Proprietary",
-    "url": "https://www.mymicrobalance.com/downloads/v400/MyMicroBalance_USB_ZIP_DE.zip",
-    "hash": "b4f5b628be48527f5ba65efde321f972324384a3e7b392cfe137813e7a3093cd",
+    "url": "https://www.mymicrobalance.com/downloads/v401/MyMicroBalance_USB_ZIP_DE.zip",
+    "hash": "200a6b4ba31b06e1ad9f801e44f932eea80cea96f2a5bf5404d1ff32f1ad114a",
     "extract_dir": "MyMicroBalance_USB_ZIP_DE\\MyMicroBalance",
     "bin": "MyMicroBalance.exe",
     "shortcuts": [
