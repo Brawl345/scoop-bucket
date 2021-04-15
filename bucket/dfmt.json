@@ -13,7 +13,7 @@
             "hash": "754c037f783684842a1fb4b8dd82952bfc74626921e1cc5f07744230e4b0643a"
         }
     },
-    "bin": "dmft.exe",
+    "bin": "dfmt.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
