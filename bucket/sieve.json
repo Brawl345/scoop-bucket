@@ -1,0 +1,27 @@
+{
+    "version": "0.5.3",
+    "description": "Sieve",
+    "homepage": "https://github.com/thsmi/sieve",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/thsmi/sieve/releases/download/0.5.3/sieve-0.5.3-win32-x64.zip",
+            "hash": "73806a075b2d4b62723329e3f98152d575aee582ca802d9c4fc9ad86f44f26b8"
+        }
+    },
+    "bin": "sieve.exe",
+    "shortcuts": [
+        [
+            "sieve.exe",
+            "Sieve"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/thsmi/sieve/releases/download/$version/sieve-$version-win32-x64.zip"
+            }
+        }
+    }
+}
