@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "http://zebulon.bok.net/Bento4/binaries/Bento4-SDK-1-6-0-638.x86_64-microsoft-win32.zip",
     "hash": "3f35f00a202a6a3172617f0e8f604c65d74fe2c3c11d0ab017547e1683c1b83f",
-    "extract_dir": "Bento4-SDK-1-6-0-638.x86_64-microsoft-win32",
+    "extract_dir": "Bento4-SDK-1-6-0-638.x86_64-microsoft-win32/bin",
     "bin": [
         "aac2mp4.exe",
         "mp4audioclip.exe",
@@ -40,6 +40,6 @@
     },
     "autoupdate": {
         "url": "http://zebulon.bok.net/Bento4/binaries/Bento4-SDK-$dashVersion.x86_64-microsoft-win32.zip",
-        "extract_dir": "Bento4-SDK-$dashVersion.x86_64-microsoft-win32"
+        "extract_dir": "Bento4-SDK-$dashVersion.x86_64-microsoft-win32/bin"
     }
 }
