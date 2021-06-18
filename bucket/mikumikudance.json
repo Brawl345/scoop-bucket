@@ -7,13 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://learnmmd.com/MikuMikuDanceE_v932x64.zip",
-            "hash": "92c043f3e136f474ab407c198aaaec3e3f81fb02983da3802f169e9f78e1324a",
-            "extract_dir": "MikuMikuDanceE_v932x64"
+            "hash": "92c043f3e136f474ab407c198aaaec3e3f81fb02983da3802f169e9f78e1324a"
         },
         "32bit": {
             "url": "https://learnmmd.com/MikuMikuDanceE_v932.zip",
-            "hash": "5e5368102d0d1b7e87dcdb9281ee5cbbd07a1d0383e6acb03d2c8bfaaa6b2dad",
-            "extract_dir": "MikuMikuDanceE_v932"
+            "hash": "5e5368102d0d1b7e87dcdb9281ee5cbbd07a1d0383e6acb03d2c8bfaaa6b2dad"
         }
     },
     "pre_install": [
@@ -38,12 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersionx64.zip",
-                "extract_dir": "MikuMikuDanceE_v$cleanVersionx64"
+                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersionx64.zip"
             },
             "32bit": {
-                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersion.zip",
-                "extract_dir": "MikuMikuDanceE_v$cleanVersion"
+                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersion.zip"
             }
         }
     }
