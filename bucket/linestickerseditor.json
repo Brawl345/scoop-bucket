@@ -9,7 +9,7 @@
     ],
     "hash": [
         "d943bdab663d1e1f858054fb4827723b6795b604cb19ab193310dcb2f94f224f",
-        "5808cbcd3bb7cea7e36bd26d409178e3bef44dc266e937951d4f02fb98172cd6"
+        "271920d6eaba52cad847732a21c12c3ae6601b153d6830b6b230e95f26b2383c"
     ],
     "pre_install": "Get-ChildItem \"$dir\\StickersEditor_*.exe\" | Rename-Item -NewName 'StickersEditor.exe'",
     "bin": "StickersEditor.exe",
