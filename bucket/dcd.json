@@ -1,16 +1,16 @@
 {
-    "version": "0.13.4",
+    "version": "0.13.5",
     "description": "The D Completion Daemon is an auto-complete program for the D programming language",
     "homepage": "https://github.com/dlang-community/DCD",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dlang-community/DCD/releases/download/v0.13.4/dcd-v0.13.4-windows-x86_64.zip",
-            "hash": "9451359b6ab82a7a3da39bf5eb0a6973f671c87bb1d52d79260b8116866dca26"
+            "url": "https://github.com/dlang-community/DCD/releases/download/v0.13.5/dcd-v0.13.5-windows-x86_64.zip",
+            "hash": "282aac38bd518c1aef0930f77d893b4b6d56569664d417134a063e0f4511c7d2"
         },
         "32bit": {
-            "url": "https://github.com/dlang-community/DCD/releases/download/v0.13.4/dcd-v0.13.4-windows-x86.zip",
-            "hash": "cf9e84602b91af962bc665376ca30cbbd68246dc87ad857eab06800331ef8563"
+            "url": "https://github.com/dlang-community/DCD/releases/download/v0.13.5/dcd-v0.13.5-windows-x86.zip",
+            "hash": "c9afd85fb6ca061f870e14559f257991a72e8c5c17401a70b52a21128a5412bf"
         }
     },
     "bin": [
