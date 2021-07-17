@@ -1,12 +1,12 @@
 {
-    "version": "1.1.21",
+    "version": "1.1.22",
     "description": "Free HQ music streaming app",
     "homepage": "https://freezer.life/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://files.freezer.life/0:/PC/1.1.21/Freezer%201.1.21.exe#/dl.7z",
-            "hash": "655a36228603b2b64767c88eee8b399747dd0dbfe8d006114252ba3098492179",
+            "url": "https://files.freezer.life/0:/PC/1.1.22/Freezer%201.1.22.exe#/dl.7z",
+            "hash": "c2abd0777c3f4b87afcd7aed145ccb73335ea93497847ee2d1e68132b4b3ee98",
             "extract_dir": "$PLUGINSDIR"
         }
     },
