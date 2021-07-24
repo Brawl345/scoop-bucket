@@ -1,0 +1,31 @@
+{
+    "version": "92.0.4515.107",
+    "description": "Chromium without Google components",
+    "homepage": "https://github.com/macchrome/winchrome",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/macchrome/winchrome/releases/download/v92.0.4515.107-r885287-Win64/92.0.4515.107_ungoogled_mini_installer.exe#/ungoogled_mini_installer.exe",
+            "hash": "733e1aad60b5debc5b8605ce6a745ac6aa163b5072f7aad6a507493ff900261f"
+        }
+    },
+    "installer": {
+        "args": "--do-not-launch-chrome"
+    },
+    "uninstaller": {
+        "##": "Using 'script' instead of 'file' because it exits with error code 19.",
+        "script": "Start-Process -FilePath \"${env:LOCALAPPDATA}\\Chromium\\Application\\$version\\Installer\\setup.exe\" -ArgumentList \"--uninstall --force-uninstall\""
+    },
+    "checkver": {
+        "url": "https://github.com/macchrome/winchrome/releases/latest",
+        "regex": "Chromium v(?<version>[\\d.]+)-r(?<rev>[\\d]+) - ungoogled",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/$version_ungoogled_mini_installer.exe#/ungoogled_mini_installer.exe"
+            }
+        }
+    }
+}
