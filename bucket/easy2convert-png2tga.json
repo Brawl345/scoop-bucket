@@ -1,10 +1,10 @@
 {
-    "version": "2.9",
+    "version": "3.0",
     "description": "Easy2Convert PNG to TGA (png2tga) is a freeware for converting Portable Network Graphics files (.png) to Truevision Targa files (.tga, .targa).",
     "homepage": "http://www.easy2convert.com/png2tga/",
     "license": "Proprietary",
     "url": "http://www.easy2convert.com/dlnaaak/png2tga.exe#/dl.7z",
-    "hash": "b417154e79f1e03fd148bb982eea7fe09439a009ef6e9a170af627c597e7948d",
+    "hash": "780c5c38b1f03da36bf4b88f094d3efda67e7ccc95f5e775292dedd8c3fbe789",
     "innosetup": true,
     "bin": [
         [
