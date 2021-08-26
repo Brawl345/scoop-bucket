@@ -1,5 +1,5 @@
 {
-    "version": "13.7.1",
+    "version": "13.8.0",
     "description": "Searches and downloads shows from various German-language public broadcasters.",
     "homepage": "https://mediathekview.de/",
     "license": {
@@ -7,12 +7,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.mediathekview.de/stabil/MediathekView-13.7.1-win.zip",
-            "hash": "371d60ba0978d6415a7067067c3469b6d89a271685e2d4f3d824e380cfdb9522"
+            "url": "https://download.mediathekview.de/stabil/MediathekView-13.8.0-win.zip",
+            "hash": "00259c51e7bb0d96571ffb594ba08a74eeefefa78c7e3b85d4b5b49154085577"
         },
         "32bit": {
-            "url": "https://download.mediathekview.de/stabil/MediathekView-13.7.1-win32.zip",
-            "hash": "1bd86e6bbc20a6b289458c5a6bf3917b8c62c1450d4a516152ce3f66b8e9efeb"
+            "url": "https://download.mediathekview.de/stabil/MediathekView-13.8.0-win32.zip",
+            "hash": "e3eaf50248eb1724abd655c67c7521f4631c7dad3333050e2f67dc2098c338c7"
         }
     },
     "bin": "MediathekView_Portable.exe",
