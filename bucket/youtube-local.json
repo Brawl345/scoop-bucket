@@ -1,10 +1,10 @@
 {
-    "version": "2.6.3",
+    "version": "2.7.0",
     "description": "youtube-local is a browser-based client written in Python for watching Youtube anonymously and without the lag of the slow page used by Youtube.",
     "homepage": "https://github.com/user234683/youtube-local",
     "license": " AGPL-3.0-only",
-    "url": "https://github.com/user234683/youtube-local/releases/download/v2.6.3/youtube-local-v2.6.3-windows.zip",
-    "hash": "cb27e86805fa8fd6cdf7416cf5c05c30d53bae5d6f0fab252427beb6d43aa607",
+    "url": "https://github.com/user234683/youtube-local/releases/download/v2.7.0/youtube-local-v2.7.0-windows.zip",
+    "hash": "c288c8dec3136dde8c667d5a4c7fffafc81aed52074c8e98ca23ba422c8cd65a",
     "extract_dir": "youtube-local",
     "bin": [
         [
