@@ -1,10 +1,10 @@
 {
-    "version": "0.8.2",
+    "version": "0.8.5",
     "description": "Registry Explorer - enhanced Registry editor/viewer",
     "homepage": "https://github.com/zodiacon/RegExp",
     "license": "MIT",
-    "url": "https://github.com/zodiacon/RegExp/releases/download/v0.8.2/RegExp.exe",
-    "hash": "8a369d66df8da4515cdd1c8c73ec79403bb3c6663065f8114f540cfa44f4acfa",
+    "url": "https://github.com/zodiacon/RegExp/releases/download/v0.8.5-Beta/RegExp.exe",
+    "hash": "9fdb158d408e4dc6b43e9938ad0499717dfabab9bd475424d020a03f704f6333",
     "bin": "RegExp.exe",
     "shortcuts": [
         [
