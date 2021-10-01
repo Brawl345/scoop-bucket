@@ -1,12 +1,12 @@
 {
-    "version": "94.0.4606.61",
+    "version": "94.0.4606.71",
     "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web",
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v94.0.4606.61-r911515/mini_installer.sync.exe",
-            "hash": "2cbe5371df3d76e33e12efa2ec30f3936524b92a245948b2bbe6b5a9f56cbecc"
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v94.0.4606.71-r911515/mini_installer.sync.exe",
+            "hash": "291554f389faa74fe26f329850874e4e00c21bf5ade6ae1df435915e38d694df"
         }
     },
     "installer": {
