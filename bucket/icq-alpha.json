@@ -1,10 +1,10 @@
 {
-    "version": "10.0.45834",
+    "version": "10.0.45845",
     "description": "ICQ - stay connected",
     "homepage": "https://icq.com/",
     "license": "Proprietary",
-    "url": "https://icq-www.hb.bizmrg.com/alpha-version/win/x32/10.0.45834/icqsetup.exe#/dl.7z",
-    "hash": "md5:a09cc44224c77d5bd51d837e6be7f574",
+    "url": "https://icq-www.hb.bizmrg.com/alpha-version/win/x32/10.0.45845/icqsetup.exe#/dl.7z",
+    "hash": "md5:44ad4bce2294da41a796fd7eeffc0bca",
     "shortcuts": [
         [
             "icq.exe",
