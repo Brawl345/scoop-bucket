@@ -1,10 +1,10 @@
 {
-    "version": "1.7.6.0",
+    "version": "1.8.0.0",
     "description": "A Spotify Ad Blocker for Windows",
     "homepage": "https://github.com/Xeroday/Spotify-Ad-Blocker",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Xeroday/Spotify-Ad-Blocker/releases/download/v1.7.6.0/EZBlocker.exe",
-    "hash": "2c9fb0645515f9c15827d3400ebcf0a6023d7cf48a2834b37710640e1d546580",
+    "url": "https://github.com/Xeroday/Spotify-Ad-Blocker/releases/download/v1.8.0.0/EZBlocker.exe",
+    "hash": "0fa39c8a8ad5673e3aa86137d19596a44cb916fb9d8d3bc12f93e919ce962df4",
     "bin": "EZBlocker.exe",
     "shortcuts": [
         [
