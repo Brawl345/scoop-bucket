@@ -1,0 +1,40 @@
+{
+    "version": "3.1.13",
+    "description": "A messaging app with a focus on speed and security",
+    "homepage": "https://telegram.org",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.13/tportable-x64.3.1.13.beta.zip",
+            "hash": "0e3b804cb5c7c5f8cc5d622865d04b0663d1cc139fe884a9a54aec10580f0fab"
+        },
+        "32bit": {
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.13/tportable.3.1.13.beta.zip",
+            "hash": "e49c15b1430dd515a9f8d59dbd5674c4ceb255983950f16eb8188fcd8a455bf2"
+        }
+    },
+    "extract_dir": "Telegram",
+    "pre_install": "Set-Content \"$dir\\telegram-beta.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
+    "bin": "telegram-beta.cmd",
+    "shortcuts": [
+        [
+            "Telegram.exe",
+            "Telegram (Beta)"
+        ]
+    ],
+    "persist": "tdata",
+    "checkver": {
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/",
+        "regex": "/telegramdesktop/tdesktop/releases/download/v([\\d.]+)/tportable\\.([\\d\\.(?:beta)(?:zip)]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-x64.$match2"
+            },
+            "32bit": {
+                "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$match2"
+            }
+        }
+    }
+}
