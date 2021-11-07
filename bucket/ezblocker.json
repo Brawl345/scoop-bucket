@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Xeroday/Spotify-Ad-Blocker",
     "license": "GPL-3.0-only",
     "url": "https://github.com/Xeroday/Spotify-Ad-Blocker/releases/download/v1.8.1.0/EZBlocker.exe",
-    "hash": "fd8faa0d802aa8b162aa74ce20158a8e001d1134357de14e1e96abeb2b4b4dda",
+    "hash": "12d20df05e2d7e604e434cc1313e308c0c776117c45c2f5575f6fbde9cdc4bc1",
     "bin": "EZBlocker.exe",
     "shortcuts": [
         [
