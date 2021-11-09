@@ -1,0 +1,49 @@
+{
+    "version": "1.2.9",
+    "description": "IDE for FreeBasic",
+    "homepage": "https://github.com/XusinboyBekchanov/VisualFBEditor",
+    "license": "GPL-3.0-only",
+    "suggest": {
+        "FreeBASIC": "freebasic"
+    },
+    "url": "https://github.com/XusinboyBekchanov/VisualFBEditor/releases/download/1.2.9/VisualFBEditor.1.2.9.7z",
+    "hash": "3da38c983644ce19d221e3c7ac00293c5395f875da4ed1fb98992d94866834b3",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "VisualFBEditor64.exe",
+                    "VisualFBEditor"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "VisualFBEditor64.exe",
+                    "VisualFBEditor"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "VisualFBEditor32.exe",
+                    "VisualFBEditor"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "VisualFBEditor32.exe",
+                    "VisualFBEditor"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "Projects",
+        "Settings"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/XusinboyBekchanov/VisualFBEditor/releases/download/$version/VisualFBEditor.$version.7z"
+    }
+}
