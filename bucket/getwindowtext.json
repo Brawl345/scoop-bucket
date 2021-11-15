@@ -1,0 +1,42 @@
+{
+    "version": "4.31",
+    "description": "Get Window text is a very small Windows program with which you can read window texts and contents super easy!",
+    "homepage": "https://www.softwareok.de/?seite=Microsoft/GetWindowText",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.de/Download/GetWindowText_x64.zip",
+            "hash": "16b592285b45e8af117d0a4009502df0207c3c2d767506b4b5b5cb0b334764ed"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.de/Download/GetWindowText.zip",
+            "hash": "ae9dcbaf9aecb97d2b262d3126e1204186e2b4d0fbd67a2c8f70dd5a91bdae73"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem \"$dir\\GetWindowText*.exe\" | Rename-Item -NewName 'GetWindowText.exe'",
+        "if(!(Test-Path \"$persist_dir\\GetWindowText.ini\")) { New-Item \"$dir\\GetWindowText.ini\" | Out-Null }"
+    ],
+    "bin": "GetWindowText.exe",
+    "shortcuts": [
+        [
+            "GetWindowText.exe",
+            "GetWindowText"
+        ]
+    ],
+    "persist": "GetWindowText.ini",
+    "checkver": {
+        "url": "https://www.softwareok.de/?Download=GetWindowText",
+        "regex": "Download GetWindowText ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.de/Download/GetWindowText_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.de/Download/GetWindowText.zip"
+            }
+        }
+    }
+}
