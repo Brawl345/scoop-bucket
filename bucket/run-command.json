@@ -1,0 +1,42 @@
+{
+    "version": "5.11",
+    "description": "Replacement for the Windows Run dialog",
+    "homepage": "https://www.softwareok.de/?seite=Microsoft/Run-Command",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.de/Download/Run-Command_x64_Portable.zip",
+            "hash": "f87eb18a0899b586088ea1cf43313e291393efa88cc22d6ef59213e8d2ee63f0"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.de/Download/Run-Command_Portable.zip",
+            "hash": "cc28937fe08be6d4c3336e5fa38974c096d399f11eca34c5fcd6bd2223739357"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem \"$dir\\Run-Command*.exe\" | Rename-Item -NewName 'Run-Command.exe'",
+        "if(!(Test-Path \"$persist_dir\\Run-Command.ini\")) { New-Item \"$dir\\Run-Command.ini\" | Out-Null }"
+    ],
+    "bin": "Run-Command.exe",
+    "shortcuts": [
+        [
+            "Run-Command.exe",
+            "Run-Command"
+        ]
+    ],
+    "persist": "Run-Command.ini",
+    "checkver": {
+        "url": "https://www.softwareok.de/?Download=Run-Command",
+        "regex": "Download Run-Command ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.de/Download/Run-Command_x64_Portable.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.de/Download/Run-Command_Portable.zip"
+            }
+        }
+    }
+}
