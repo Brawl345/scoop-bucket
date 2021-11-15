@@ -1,7 +1,7 @@
 {
     "version": "5.65",
     "description": "Scroll via mouse wheel even if the window is not in the foreground",
-    "homepage": "http://www.softwareok.de/?seite=Microsoft/AlwaysMouseWheel",
+    "homepage": "https://www.softwareok.de/?seite=Microsoft/AlwaysMouseWheel",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
