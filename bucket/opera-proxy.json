@@ -1,16 +1,16 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Standalone client for proxies of Opera VPN",
     "homepage": "https://github.com/Snawoot/opera-proxy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Snawoot/opera-proxy/releases/download/v1.2.1/opera-proxy.windows-amd64.exe",
-            "hash": "e2b18020a55f3d373fb18c5bdbe75bf54f08db7ae611de4dd2e2a74805e605db"
+            "url": "https://github.com/Snawoot/opera-proxy/releases/download/v1.2.2/opera-proxy.windows-amd64.exe",
+            "hash": "992e80cf17340a453992c351142693a5f6592a54120582f331c70e66dd63cf09"
         },
         "32bit": {
-            "url": "https://github.com/Snawoot/opera-proxy/releases/download/v1.2.1/opera-proxy.windows-386.exe",
-            "hash": "d6efd48202037c48f50e430e574af221ff6c2da3fc1a5236c052d4cb3de252a8"
+            "url": "https://github.com/Snawoot/opera-proxy/releases/download/v1.2.2/opera-proxy.windows-386.exe",
+            "hash": "21f7a32152d87672649f15f5efde5d0f6dfc00763ddc19486cf4178d1b642f65"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\opera-proxy*.exe\" | Rename-Item -NewName 'opera-proxy.exe'",
