@@ -1,12 +1,12 @@
 {
-    "version": "96.0.4664.45",
+    "version": "96.0.4664.93",
     "description": "Chromium without Google components",
     "homepage": "https://github.com/macchrome/winchrome",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v96.0.4664.45-r929512-Win64/96.0.4664.45_ungoogled_mini_installer.exe#/ungoogled_mini_installer.exe",
-            "hash": "b7257870ad88fc122a5d2836fb6caff60b63bd3f0f1ef243408f2bea688eada4"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v96.0.4664.93-r929512-Win64/96.0.4664.93_ungoogled_mini_installer.exe#/ungoogled_mini_installer.exe",
+            "hash": "02c4f5641de37206d235d7b56b696c9725723e9b94dae0102cdee19209dbfa79"
         }
     },
     "installer": {
