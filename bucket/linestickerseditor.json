@@ -3,23 +3,18 @@
     "description": "LINE Stickers Editor",
     "homepage": "https://github.com/line-stickers/LineStickersEditor",
     "license": "Proprietary",
-    "url": [
-        "https://github.com/line-stickers/LineStickersEditor/releases/download/latest/Windows_StickersEditor_1.3.1.zip",
-        "https://line.me/favicon.ico#/icon.ico"
+    "url": "https://github.com/line-stickers/LineStickersEditor/releases/download/latest/Windows_StickersEditor_1.3.1.zip",
+    "hash": "9cdd8331203f87055bd5be553730bcbce83a4a1d2a8dfc1d198e8894375e4d65",
+    "pre_install": [
+        "Get-ChildItem \"$dir\\StickersEditor_*.exe\" | Rename-Item -NewName 'StickersEditor.exe'",
+        "if(!(Test-Path \"$persist_dir\\settings.bin\")) { New-Item \"$dir\\settings.bin\" | Out-Null }"
     ],
-    "hash": [
-        "9cdd8331203f87055bd5be553730bcbce83a4a1d2a8dfc1d198e8894375e4d65",
-        "271920d6eaba52cad847732a21c12c3ae6601b153d6830b6b230e95f26b2383c"
-    ],
-    "pre_install": "Get-ChildItem \"$dir\\StickersEditor_*.exe\" | Rename-Item -NewName 'StickersEditor.exe'",
     "bin": "StickersEditor.exe",
     "persist": "StickersEditorWorkspace",
     "shortcuts": [
         [
             "StickersEditor.exe",
-            "LINE Stickers Editor",
-            "",
-            "icon.ico"
+            "LINE Stickers Editor"
         ]
     ],
     "checkver": {
