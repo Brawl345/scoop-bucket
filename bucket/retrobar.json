@@ -1,10 +1,10 @@
 {
-    "version": "1.5.6",
+    "version": "1.6.9",
     "description": "Classic Windows 95, 98, Me, 2000, XP taskbar for modern versions of Windows",
     "homepage": "https://github.com/dremin/RetroBar",
     "license": " Apache-2.0",
-    "url": "https://github.com/dremin/RetroBar/releases/download/v1.5.6/RetroBar.zip",
-    "hash": "d565423e9e646c17db4d119319e8c1c8d24119ce99db6078cc26e013c80d75e6",
+    "url": "https://github.com/dremin/RetroBar/releases/download/v1.6.9/RetroBar.zip",
+    "hash": "025af7371df213a24f7f428554190a3ff85fa48098db47cc1cf6379898a1beb7",
     "bin": "RetroBar.exe",
     "shortcuts": [
         [
