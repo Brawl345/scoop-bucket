@@ -28,19 +28,5 @@
     "persist": [
         "UserFile",
         "Data\\mmconfig.ini"
-    ],
-    "checkver": {
-        "url": "https://learnmmd.com/downloads/",
-        "regex": "MMD ([\\d.]+) is the latest release of MikuMikuDance!"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersionx64.zip"
-            },
-            "32bit": {
-                "url": "https://learnmmd.com/MikuMikuDanceE_v$cleanVersion.zip"
-            }
-        }
-    }
+    ]
 }
