@@ -1,5 +1,6 @@
 {
     "version": "3.1.2-8.0",
+    "description": "Debugging plugin for PHP 8.0",
     "homepage": "https://xdebug.org/",
     "license": {
         "identifier": "Xdebug-1.01",
