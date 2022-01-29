@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://download.mediathekview.de/stabil/MediathekView-13.8.1-win.zip",
-            "hash": "f725db438a77f727c0efbef88a5ca6ff3478cb817c1f63a8098ec0b360ebd4cc"
+            "hash": "284037be2a6943530f0436732f35e173efcd89f66bfe63cc4f985d5a880e18cf"
         },
         "32bit": {
             "url": "https://download.mediathekview.de/stabil/MediathekView-13.8.1-win32.zip",
-            "hash": "a7406b120eab2a7648ebe61391bd051322c7078f3b8a5cbdaef56faf88e863c8"
+            "hash": "9b96aa984aeb5917a72e44668d126a95d3b45e5265c5bc5f4d02340ff0f495c3"
         }
     },
     "bin": "MediathekView_Portable.exe",
