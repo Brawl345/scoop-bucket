@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://annystudio.com/jcpicker.exe",
-            "hash": "6bbc50a2d84fd14b07c8927939c355f47de500bff8b1d7ca7cc0f2f7ce1b463c"
+            "hash": "c5834961f1aea7f85ca00e744545f743c5e7b5c712a640f49f1967fb8c29acf6"
         },
         "32bit": {
             "url": "https://annystudio.com/jcpicker_32bit.exe#/jcpicker.exe",
-            "hash": "1848b272f2c3f97ac245a04f5d9185081a2d7ab2b4f97bb4046cc70120a48ec2"
+            "hash": "269b0e90a1fc6968e134b25a6031fc62a4fc734936dafa4265387160ae23851b"
         }
     },
     "pre_install": "if(!(Test-Path \"$persist_dir\\jcpicker.ini\")) { New-Item \"$dir\\jcpicker.ini\" | Out-Null }",
