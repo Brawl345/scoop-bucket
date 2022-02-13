@@ -1,16 +1,16 @@
 {
-    "version": "5.77",
+    "version": "5.78",
     "description": "Close / Terminate hanging programs, apps, processes on MS Windows",
     "homepage": "https://www.softwareok.de/?seite=Freeware/ProcessKO",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.de/Download/ProcessKO_x64.zip",
-            "hash": "a1876c65bb8bc42874eeb49f1731928aa856589b6fb2e49270f4b47c22c8524d"
+            "hash": "ec2b613a8e6c935e6ce580c147e5a6891620f662726e96ab8a6776cbbdd54ef3"
         },
         "32bit": {
             "url": "https://www.softwareok.de/Download/ProcessKO.zip",
-            "hash": "298a1c819e4d0708f4612ef8d4039c2500873585ec4b98a11479966dd3568937"
+            "hash": "ce926091fd666d8866b5e5bb5a9d44b3a0a047b89dd918d1cc84bbe7b512245f"
         }
     },
     "pre_install": [
