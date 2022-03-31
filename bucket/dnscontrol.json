@@ -1,0 +1,13 @@
+{
+    "version": "3.15.0",
+    "description": "Synchronize your DNS to multiple providers from a simple DSL",
+    "homepage": "https://github.com/StackExchange/dnscontrol",
+    "license": "MIT",
+    "url": "https://github.com/StackExchange/dnscontrol/releases/download/v3.15.0/dnscontrol.exe",
+    "hash": "9b3c2095af2018ad6a7ac895bb55d2bbf37de3a77a997a82644dcab4f66370ea",
+    "bin": "dnscontrol.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/StackExchange/dnscontrol/releases/download/v$version/dnscontrol.exe"
+    }
+}
