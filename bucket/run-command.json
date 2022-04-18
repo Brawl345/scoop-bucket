@@ -1,16 +1,16 @@
 {
-    "version": "5.22",
+    "version": "5.33",
     "description": "Replacement for the Windows Run dialog",
     "homepage": "https://www.softwareok.de/?seite=Microsoft/Run-Command",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.de/Download/Run-Command_x64_Portable.zip",
-            "hash": "d81e3bcee61fbc1a6d29ecb4718564ec392f0f1a88e817474e017aa8e37616be"
+            "hash": "e6d39cff981d6ee6a6db327a765cc7ac236f1a15bd26615af444f92d03956041"
         },
         "32bit": {
             "url": "https://www.softwareok.de/Download/Run-Command_Portable.zip",
-            "hash": "0affccd302ae1bbc739b38a5d437065df70be65cf2e3f1bde79390b71632077a"
+            "hash": "daa2d419136ec41fedb6c07547e5a968be2e2884efed30dd356996059289094f"
         }
     },
     "pre_install": [
