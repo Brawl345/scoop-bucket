@@ -1,0 +1,38 @@
+{
+    "version": "0.10.3",
+    "description": "Update binaries installed by go install.",
+    "homepage": "https://github.com/nao1215/gup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nao1215/gup/releases/download/v0.10.3/gup_0.10.3_Windows_x86_64.zip",
+            "hash": "efad1541d5442191dcf325faa480e9a997a42391186dd2ede8e2247835b16110"
+        },
+        "32bit": {
+            "url": "https://github.com/nao1215/gup/releases/download/v0.10.3/gup_0.10.3_Windows_i386.zip",
+            "hash": "a5c30d7f2b8fc133966860677afd4bbfbcabaea20ce779228a2504ee3414ade8"
+        },
+        "arm64": {
+            "url": "https://github.com/nao1215/gup/releases/download/v0.10.3/gup_0.10.3_Windows_arm64.zip",
+            "hash": "df0bc4cc7f4e5cfea68262f81489c4242ac4b99d554be27c541649ff713a85d4"
+        }
+    },
+    "bin": "gup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "hash": {
+            "url": "https://github.com/nao1215/gup/releases/download/v$version/checksums.txt"
+        },
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nao1215/gup/releases/download/v$version/gup_$version_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/nao1215/gup/releases/download/v$version/gup_$version_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/nao1215/gup/releases/download/v$version/gup_$version_Windows_arm64.zip"
+            }
+        }
+    }
+}
