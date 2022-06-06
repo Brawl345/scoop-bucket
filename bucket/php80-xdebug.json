@@ -1,5 +1,5 @@
 {
-    "version": "3.1.4-8.0",
+    "version": "3.1.5-8.0",
     "description": "Debugging plugin for PHP 8.0",
     "homepage": "https://xdebug.org/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://xdebug.org/files/php_xdebug-3.1.4-8.0-vs16-x86_64.dll#/php_xdebug.dll",
-            "hash": "029d9414196d4599ac3d1bad14b8eba25eb3c0a1bbcc66aefbd03635aea311d5"
+            "url": "https://xdebug.org/files/php_xdebug-3.1.5-8.0-vs16-x86_64.dll#/php_xdebug.dll",
+            "hash": "a4694eb4d807bdcaec314d2e633f767d06fe4b170f84c29bad4f4b52565fc994"
         },
         "32bit": {
-            "url": "https://xdebug.org/files/php_xdebug-3.1.4-8.0-vs16.dll#/php_xdebug.dll",
-            "hash": "65fc47d44ad217fc68283eb50957beaf4bfe942cdd97bcaef1cfc69ae6df8c72"
+            "url": "https://xdebug.org/files/php_xdebug-3.1.5-8.0-vs16.dll#/php_xdebug.dll",
+            "hash": "d9a483c854e6d4777ce77cc306ec0673e5e774695c5e53168f8c1a5437b3a9a9"
         }
     },
     "post_install": [
