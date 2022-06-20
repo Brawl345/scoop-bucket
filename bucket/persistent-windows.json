@@ -1,10 +1,10 @@
 {
-    "version": "5.36",
+    "version": "5.35",
     "description": "A poorly named utility that persists window positions and size when the monitor display count/resolution adjusts and restores back to it’s previous settings.",
     "homepage": "https://github.com/kangyu-california/PersistentWindows",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/5.36/PersistentWindows5.36.zip",
-    "hash": "44ded5be92afe74927c601dd23279eb9e9dd5752d5a73f1c1a94ccabd84a4d19",
+    "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/5.35/PersistentWindows5.35.zip",
+    "hash": "9afb1981ca5e2a3452a26bb1cadda16661f646d28f5c4c710928a50ffc2c7679",
     "bin": "PersistentWindows.exe",
     "shortcuts": [
         [
