@@ -1,0 +1,25 @@
+{
+    "version": "3.0",
+    "description": "Easy2Convert TGA to PNG converts Truevision Targa files (.tga, .targa) to Portable Network Graphics files (.png).",
+    "homepage": "http://www.easy2convert.com/tga2png/",
+    "license": "Proprietary",
+    "url": "https://www.easy2convert.com/dlnmabb/tga2png.exe#/dl.7z",
+    "hash": "a0912729b792b8c368dbdd049a9b425249adeb859c70eab73355c046c3dc75b3",
+    "innosetup": true,
+    "bin": [
+        [
+            "tga2pngcmd.exe",
+            "tga2png"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "tga2png.exe",
+            "Easy2Convert TGA to PNG"
+        ]
+    ],
+    "checkver": "Version: ([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.easy2convert.com/dlnmabb/tga2png.exe#/dl.7z"
+    }
+}
