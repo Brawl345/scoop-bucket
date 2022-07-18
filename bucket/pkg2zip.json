@@ -1,17 +1,17 @@
 {
-    "version": "2.1",
+    "version": "2.3",
     "description": "Utility that decrypts PlayStation Vita pkg file and creates zip package.",
     "homepage": "https://github.com/lusid1/pkg2zip",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lusid1/pkg2zip/releases/download/2.1/pkg2zip_64bit.zip",
-            "hash": "911edef09425f7a8b06d2acde8a2df8b19a117acb0b523117177d565f14e7c6b",
+            "url": "https://github.com/lusid1/pkg2zip/releases/download/2.3/pkg2zip_64bit.zip",
+            "hash": "53e470ab90e1f81bfc10a43808fb3f8a55114ccf7d43d274d1e6506141684f67",
             "extract_dir": "pkg2zip_64bit"
         },
         "32bit": {
-            "url": "https://github.com/lusid1/pkg2zip/releases/download/2.1/pkg2zip_32bit.zip",
-            "hash": "a8a63f3fe85296094719649fcb372fd825675981e7b9085d290fadbb5476de32",
+            "url": "https://github.com/lusid1/pkg2zip/releases/download/2.3/pkg2zip_32bit.zip",
+            "hash": "35756fd283724a65e8f74309618ef8e04a4767974daf3270b83b2c4b2c06ff70",
             "extract_dir": "pkg2zip_32bit"
         }
     },
