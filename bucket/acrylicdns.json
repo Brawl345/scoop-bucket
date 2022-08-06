@@ -1,11 +1,11 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Acrylic is a local DNS proxy for Windows which improves the performance of your computer",
     "homepage": "http://acrylic.sourceforge.net/",
     "license": "GPL-2.0-only",
     "notes": "Install the service with InstallAcrylicService.bat in the programm directory.",
-    "url": "https://downloads.sourceforge.net/project/acrylic/Acrylic/2.1.0/Acrylic-Portable.zip",
-    "hash": "sha1:b0161b10b5b6619d5ee2e9b7a6e6b3bbc4ea699d",
+    "url": "https://downloads.sourceforge.net/project/acrylic/Acrylic/2.1.1/Acrylic-Portable.zip",
+    "hash": "sha1:cc7cab47bf91e17ccfa69e4662f90808e2ede07a",
     "pre_install": [
         "if (Test-Path \"$persist_dir\\AcrylicConfiguration.ini\") { Remove-Item \"$dir\\AcrylicConfiguration.ini\" -ErrorAction 'SilentlyContinue' -Force }",
         "if (Test-Path \"$persist_dir\\AcrylicHosts.txt\") { Remove-Item \"$dir\\AcrylicHosts.txt\" -ErrorAction 'SilentlyContinue' -Force }"
