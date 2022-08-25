@@ -4,7 +4,7 @@
     "homepage": "https://github.com/bostrot/wsl2-distro-manager",
     "license": "GPL-3.0-only",
     "url": "https://github.com/bostrot/wsl2-distro-manager/releases/download/v1.4.0/wsl2-distro-manager-v1.4.0.zip",
-    "hash": "94f6dacc34ee7b722b4cd1aaafc51a1d6650fe1c3d87ecc50a5710896868629d",
+    "hash": "26110c709686ae42fd22419d87cf90375b76cf5bf09167c344396995a9138ce3",
     "bin": "wsl2distromanager.exe",
     "shortcuts": [
         [
