@@ -1,13 +1,13 @@
 {
-    "version": "1.3.2",
+    "version": "1.3.1",
     "description": "IDE for FreeBasic",
     "homepage": "https://github.com/XusinboyBekchanov/VisualFBEditor",
     "license": "GPL-3.0-only",
     "suggest": {
         "FreeBASIC": "freebasic"
     },
-    "url": "https://github.com/XusinboyBekchanov/VisualFBEditor/releases/download/1.3.2/VisualFBEditor.1.3.2.7z",
-    "hash": "394614d6074ba3ce2b7df8a287468ecb94fc8ede16a2f08aecf8bdf88aa4b6a1",
+    "url": "https://github.com/XusinboyBekchanov/VisualFBEditor/releases/download/1.3.1/VisualFBEditor.1.3.1.7z",
+    "hash": "2fd39a7927d0f1cea49bdb210920367ee0658908ce769af22fab935df599d24b",
     "architecture": {
         "64bit": {
             "bin": [
