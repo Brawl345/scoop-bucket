@@ -1,10 +1,10 @@
 {
-    "version": "22.9.0.47351",
+    "version": "22.9.0.47357",
     "description": "ICQ - stay connected",
     "homepage": "https://icq.com/",
     "license": "Proprietary",
-    "url": "https://icq-www.hb.bizmrg.com/alpha-version/win/x32/22.9.0.47351/icqsetup.exe#/dl.7z",
-    "hash": "md5:71fae7900895cfb7a5b94ca16b7b40b7",
+    "url": "https://icq-www.hb.bizmrg.com/alpha-version/win/x32/22.9.0.47357/icqsetup.exe#/dl.7z",
+    "hash": "md5:2da94db4d9e3e99394d4d07d1a3d2137",
     "shortcuts": [
         [
             "icq.exe",
