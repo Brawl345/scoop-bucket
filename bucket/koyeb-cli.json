@@ -1,16 +1,16 @@
 {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "description": "Koyeb cli",
     "homepage": "https://github.com/koyeb/koyeb-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v2.6.1/koyeb-cli_2.6.1_windows_amd64.zip",
-            "hash": "36e6b41bb9063f046a79d12269b5bb4eb36f40b8edafb9d639f720733f465965"
+            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v2.6.2/koyeb-cli_2.6.2_windows_amd64.zip",
+            "hash": "a1927e4c8baa834a5e3a545f9ae021cea56f462be72bf4f3ea83f6840f2e5f68"
         },
         "arm64": {
-            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v2.6.1/koyeb-cli_2.6.1_windows_arm64.zip",
-            "hash": "723a38df70523ed2da3f042f7a1dc67ff077ee993d3b76f4121516c4f2dffd05"
+            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v2.6.2/koyeb-cli_2.6.2_windows_arm64.zip",
+            "hash": "4c9bde93a0dce13d0837d08adb8e00c13d571864ee855149640e9b032e4e5fa0"
         }
     },
     "bin": "koyeb.exe",
