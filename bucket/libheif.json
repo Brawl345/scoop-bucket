@@ -1,13 +1,13 @@
 {
-    "version": "1.12.0",
+    "version": "1.13.0",
     "description": "An all-in-one tool for extracting/creating 3ds roms.",
     "homepage": "https://github.com/pphh77/libheif-Windowsbinary",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pphh77/libheif-Windowsbinary/releases/download/v1.12.0/libheif-1.12.0-win64.7z",
-            "hash": "91989ab09b5fa124b34d8b641237951b41283ac0da52928cd30fd12a42f59141",
-            "extract_dir": "libheif-1.12.0-win64"
+            "url": "https://github.com/pphh77/libheif-Windowsbinary/releases/download/v1.13.0/libheif-1.13.0-win64.7z",
+            "hash": "b32af85b490a52aa6f832ed905709995020c185f6ca5143712c8a35b97e849d6",
+            "extract_dir": "libheif-1.13.0-win64"
         }
     },
     "bin": [
