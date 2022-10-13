@@ -3,7 +3,7 @@
     "description": "Feature-rich, customizable and easy-to-use clipboard manager",
     "homepage": "https://chigusa-web.com/en/clibor/",
     "license": "Freeware",
-    "url": "https://chigusa-web.com/en/dl/clibor-latest/",
+    "url": "https://chigusa-web.com/en/dl/clibor-latest/#/dl.zip",
     "hash": "00c8ea5aa5e0e7eb5c87d73214716365a8d556d23a22d03ddc7305d58c2aa053",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\excl.dat\")) {",
@@ -42,7 +42,7 @@
         "regex": "Clibor ([\\d.]+E)"
     },
     "autoupdate": {
-        "url": "https://chigusa-web.com/en/dl/clibor-latest/",
+        "url": "https://chigusa-web.com/en/dl/clibor-latest/#/dl.zip",
         "extract_dir": "clibor$cleanVersion"
     }
 }
