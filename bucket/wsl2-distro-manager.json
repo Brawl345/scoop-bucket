@@ -1,10 +1,10 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "A GUI to quickly manage your WSL2 instances",
     "homepage": "https://github.com/bostrot/wsl2-distro-manager",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/bostrot/wsl2-distro-manager/releases/download/v1.6.0/wsl2-distro-manager-v1.6.0.zip",
-    "hash": "9dffd9eecccb52914c23e1b4ff4bab042e8d684da30a18ca55d2e35eac6fcf8e",
+    "url": "https://github.com/bostrot/wsl2-distro-manager/releases/download/v1.6.1/wsl2-distro-manager-v1.6.1.zip",
+    "hash": "f9e8431d17c07f1c91cce0cff5aecb0c91e3c037e9a1ccd8db007413f5b83c96",
     "bin": "wsl2distromanager.exe",
     "shortcuts": [
         [
