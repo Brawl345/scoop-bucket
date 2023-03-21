@@ -1,10 +1,10 @@
 {
-    "version": "2.3.0E",
+    "version": "2.3.1E",
     "description": "Feature-rich, customizable and easy-to-use clipboard manager",
     "homepage": "https://chigusa-web.com/en/clibor/",
     "license": "Freeware",
     "url": "https://chigusa-web.com/en/dl/clibor-latest/#/dl.zip",
-    "hash": "00c8ea5aa5e0e7eb5c87d73214716365a8d556d23a22d03ddc7305d58c2aa053",
+    "hash": "16f2e9b43cafe545a38f64fd654edf78034dec931d46ef1d757a4ba9ad947d88",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\excl.dat\")) {",
         "    Stop-Process -Name Clibor -ErrorAction 'SilentlyContinue'",
@@ -21,7 +21,7 @@
         "if (Test-Path \"$persist_dir\\frmt.dat\") { Remove-Item \"$dir\\frmt.dat\" -ErrorAction 'SilentlyContinue' -Force }",
         "if (Test-Path \"$persist_dir\\ww.dat\") { Remove-Item \"$dir\\ww.dat\" -ErrorAction 'SilentlyContinue' -Force }"
     ],
-    "extract_dir": "clibor230E",
+    "extract_dir": "clibor231E",
     "bin": "Clibor.exe",
     "shortcuts": [
         [
